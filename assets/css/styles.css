@@ -1,0 +1,41 @@
+@keyframes rotating-letters {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+#input::focus {
+  border-top: none!important;
+  border-right: none;
+  border-left: none;
+}
+
+button::hover {
+}
+
+#newlink:hover {
+  background: rgb(140,54,54);
+  color: rgb(14,14,14);
+  transition-duration: 0.5s;
+}
+
+#newlink {
+  width: 20vh;
+  height: 10vh;
+  background: rgba(0,0,0,0);
+  color: rgb(140,54,54);
+  font-family: 'Fira Code', monospace;
+  font-size: 3vh;
+  border-style: none;
+}
+
+#hint {
+  display: none;
+}
+
