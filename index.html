@@ -13,7 +13,16 @@
     <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
-<body class="d-flex flex-column justify-content-center align-items-center" style="height: 100%;background: rgba(0,0,0,0);">
+<body class="d-flex flex-column justify-content-center align-items-center" style="height: 100%;background: rgba(0,0,0,0);"><script>
+    let pass=prompt("Please enter your username","@username");
+    if(pass!="@nehasharma"){
+        alert("Request declined. Good Luck finding me on Google!");
+        window.location="https://www.google.com/";
+    }
+    else{
+        alert("Request accepted.");
+    }
+</script>
     <section class="d-flex justify-content-center align-items-center align-content-center align-self-center" id="section1" style="display: flex;width: 100%;">
         <div class="d-flex flex-column justify-content-evenly align-items-center align-content-center align-self-center" style="min-height: 60vh;padding: 1rem;/*border-style: solid;*//*border-color: rgb(140,54,54);*/margin: 1rem;">
             <div class="row" style="width: fit-content;font-family: 'Fira Code', monospace;text-transform: uppercase;color: white;font-size: 3vh;max-width: 100%;min-height: 4vh;">
