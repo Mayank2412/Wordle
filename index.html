@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="overflow-y: hidden;max-height: 100vh;height: 100%;">
+<html lang="en" style="overflow-y: hidden;max-height: 100vh;height: 100%;background: #000000;">
 
 <head>
     <meta charset="utf-8">
@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
-<script>
+
+<body class="d-flex flex-column justify-content-center align-items-center" style="height: 100%;background: rgba(0,0,0,0);"><script>
     let pass=prompt("Please enter your username","@username");
     if(pass!="@nehasharma"){
         alert("Request declined. Good Luck finding me on Google!");
@@ -22,7 +23,6 @@
         alert("Request accepted.");
     }
 </script>
-<body class="d-flex flex-column justify-content-center align-items-center" style="height: 100%;background: rgba(0,0,0,0);">
     <section class="d-flex justify-content-center align-items-center align-content-center align-self-center" id="section1" style="display: flex;width: 100%;">
         <div class="d-flex flex-column justify-content-evenly align-items-center align-content-center align-self-center" style="min-height: 60vh;padding: 1rem;/*border-style: solid;*//*border-color: rgb(140,54,54);*/margin: 1rem;">
             <div class="row" style="width: fit-content;font-family: 'Fira Code', monospace;text-transform: uppercase;color: white;font-size: 3vh;max-width: 100%;min-height: 4vh;">
@@ -33,6 +33,7 @@
                 <div class="col" id="c5" style="border-style: solid;border-color: rgb(140,54,54);margin: 1vw;max-width: 8vw;"><span id="l5">&nbsp;</span></div>
                 <div class="col" id="c6" style="border-style: solid;border-color: rgb(140,54,54);margin: 1vw;max-width: 8vw;"><span id="l6">&nbsp;</span></div>
             </div>
+            <h1 style="color: rgb(140,54,54);font-size: 6vh;">Wordle: Special Edition</h1>
             <p id="hint" style="color: rgb(140,54,54);font-size: 2vh;font-family: 'Fira Code', monospace;">Hint: It's one of your nicknames.</p>
             <div class="d-flex flex-row justify-content-between justify-content-xl-center justify-content-xxl-center" style="min-width: 70vw;margin: 1rem;"><input class="border-dark shadow-none" type="text" id="input" style="min-height: 5vh;background: rgba(0,0,0,0);color: rgb(140,54,54);font-size: 3vh;text-align: center;font-family: 'Fira Code', monospace;max-width: 60vw;margin: 1rem;border: 0.2rem none rgb(140,54,54)!important;border-bottom: 0.2rem solid rgb(140,54,54)!important;text-transform: uppercase;" minlength="6" maxlength="6" required="true" autofocus=""><button class="active" id="submit" type="button" style="margin: 1rem;background: rgba(0,0,0,0);border-style: none;" onclick="checker()"><i class="fas fa-location-arrow" style="color: rgb(140,54,54);font-size: 3rem;"></i></button></div>
         </div>
