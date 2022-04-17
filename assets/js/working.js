@@ -1,5 +1,5 @@
 let key="PRAGS";
-let newurl="ff0665984c6f379b857436f60efab88d38cd34c24d53c93928b0f362a4c19463.html";
+let newurl="https://pastebin.com/cescujZ9";
 var counter=0;
 var finalcheck=0;
 var input=document.getElementById('input');
